@@ -32,11 +32,10 @@ public class TreeMapImpl {
 			System.out.println(ee.getKey() +":" + ee.getValue());
 		}
 
-		//class cast exception
 		TreeMap tmap =new TreeMap();
 		tmap.put(34567854555L, "Sachin");
 		tmap.put("virat", "Sachin");
-		tmap.put(new Student("Sachin",12,'C'), "Rohit");
+	//	tmap.put(new Student("Sachin",12,'C'), "Rohit");
 		
 		Set<Entry<Object , Object>> e= tmap.entrySet();
 		
